@@ -1,0 +1,14 @@
+:root{--rouge:#E8322A;--fond:#141110;--eleve:#221C1A;--encre:#fff;--douce:#B9B0AC;--trait:#3A302C;--laiton:#E8B54A}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6;
+background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:64px 64px}
+main{max-width:720px;margin:0 auto;padding:56px 20px 80px}
+.logo{display:inline-block;margin-bottom:32px;background:var(--rouge);color:#fff;font-family:"Arial Black",Arial,sans-serif;font-weight:900;font-size:22px;letter-spacing:.04em;padding:8px 16px;border-radius:10px;text-decoration:none}
+h1{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;font-size:clamp(34px,7vw,56px);line-height:1.05;margin:0 0 16px}
+h2{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;font-size:22px;margin:40px 0 8px;color:var(--laiton)}
+p,li{color:var(--douce);font-size:18px}
+strong{color:var(--encre)}
+.accroche{font-size:22px;color:var(--encre);font-weight:700}
+.carte{background:var(--eleve);border:1px solid var(--trait);border-radius:16px;padding:20px 24px;margin-top:24px}
+a{color:var(--encre);text-decoration-color:var(--rouge);text-underline-offset:4px;text-decoration-thickness:2px}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--trait);font-size:15px;color:var(--douce)}
